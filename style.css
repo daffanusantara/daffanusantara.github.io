@@ -1,0 +1,76 @@
+section {
+    min-height: 400px;
+}
+
+.portfolio {
+    background-color: rgb(50, 54, 54);
+}
+
+.portfolio .h2hr {
+    padding:30px 0 40px 0; ;
+}
+
+.about div {
+    margin-top: 30px ;
+}
+
+.portfolio {
+    padding-bottom: 30px;
+}
+
+body {
+    margin-top: 30px;
+}
+
+html{
+    position: relative;
+}
+
+.jumbotron {
+
+    overflow: hidden;
+
+}
+
+.jumbotron h1,
+.jumbotron p {
+
+    color: rgb(216, 212, 212);
+    text-shadow: 1px 1px 5px black;
+
+}
+
+
+
+.habout {
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: 1s;
+}
+
+.habout.hgo {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.p1, .p2 {
+    opacity: 0;
+    transform: translateY(-45px);
+    transition: 1s;
+}
+
+.p1.pgo, .p2.pgo {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.portfolio .thumbnail {
+    opacity: 0;
+   transform: translatey(-45px);
+    transition: 0.8s;
+}
+
+.portfolio .thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0);
+}
