@@ -83,6 +83,24 @@ html {
   margin-left: 7px;
 }
 
+.panel {
+  margin: 20px;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.isic a {
+  text-decoration: none;
+  color: black;
+}
+
+.isic a:hover {
+  color: rgb(0, 59, 110);
+}
+
 /* Desktop Version */
 @media (min-width: 992px) {
   .p1 {
