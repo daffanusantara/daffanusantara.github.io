@@ -101,6 +101,10 @@ li {
   color: rgb(0, 59, 110);
 }
 
+.alamat {
+  text-align: center;
+}
+
 /* Desktop Version */
 @media (min-width: 992px) {
   .p1 {
